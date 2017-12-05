@@ -1,0 +1,265 @@
+/*h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:chartreuse;
+}
+a:hover{
+    color:aqua;
+    font-size: 17px;
+    letter-spacing: 10px;
+}
+a:active{
+    color:brown;
+}
+a:visited{
+    color:indianred;
+}*//*
+.playeru{
+   font-family:'Indie Flower', cursive;
+    
+    
+    font-size:25px;
+    
+       
+       
+}
+.playerd{
+  font-family: 'Montserrat', sans-serif; 
+  color:green;
+    
+    font-size:25px;
+}
+.playert{
+    font-family:'Princess Sofia', cursive;
+    color:indigo;
+    font-size:25px;
+}
+img{
+   max-width:100%;
+    height:auto;
+    padding:5px;
+   
+    
+}
+.dolphin{
+    border-radius: 10px;
+    height:400px;
+    width:400px;
+    padding:2px;
+    display:block;
+    margin:auto;
+    
+
+    border:7px solid blue;
+}
+a:hover{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    opacity:0.5;
+}
+.bungolo{
+   margin-top: 60px;
+   
+}
+button{
+    background-image: linear-gradient(indigo,pink,white,grey);
+    color:black;
+    padding:25px 14px;
+    border-radius:10px;
+    word-spacing: 2px;
+    font-size: 20px;
+    text-shadow:-5px -5px 7px  grey;
+    box-shadow: 5px 5px 5px pink;
+    margin:auto;
+    display:block;
+    
+    
+    
+}
+.col1{
+    height:300px;
+    width:300px;
+    background-color: aqua;  
+    float: left;
+    margin: 20px;
+    color:#ffffff;
+    font-family:'Princess Sofia', cursive;
+    font-size:20px;
+    text-align: center;
+     text-decoration: underline;
+    border-radius: 50%;
+    padding:25px;
+    
+    
+    
+    
+}
+.col2{
+  height:300px;
+    width:300px;
+    background-color: red; 
+    float:left;
+    margin: 20px;
+    color:#ffffff;
+     font-family:'Princess Sofia', cursive; 
+    font-size:20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    border-radius: 50%;
+    padding:25px;
+    
+    
+}   
+.col3{
+    height:300px;
+    width:300px;
+    background-color:blueviolet;
+    float:left;
+    margin: 20px;
+    color:#ffffff;
+    font-family:'Princess Sofia', cursive;
+    font-size:20px;
+    text-align: center;
+     text-decoration: underline;
+    border-radius: 50%;
+   padding:25px;
+    
+    
+    
+    
+    
+}
+div h1{
+    color:indigo;
+}
+*/
+
+
+
+
+
+
+
+/*font-family: 'Asap Condensed', sans-serif;
+*//*/
+.row {
+  display: flex;
+   width:100%; 
+    
+    
+}
+
+.row::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+*{
+    box-sizing:border-box;
+}
+
+
+[class*="col-"]{
+    border:2px solid red;
+    padding:15px;
+}
+*/
+
+/*#######################DEFAULT*/
+
+nav,header,footer{
+    display: :block;
+    
+}
+body{
+    line-height: 1;
+    margin:0;#
+}
+
+/*#################Navbar##########*/
+nav{
+    width:100%;
+    margin:0;
+}
+
+ nav ul{
+
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #eeeeee;
+}
+    
+
+ul.topnav li{
+    float:left;
+    list-style: none;
+    
+}
+ul.topnav li.topnavrt{
+    float:right;
+}
+ul.topnav li a{
+    display:block;
+    padding:15px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#666666;
+    min-height:16px;
+    text-align:center;
+}
+ul.topnav li a:hover{
+    background-color: cornflowerblue;
+    color:#ffffff;
+}
+ul.topnav li.hamburger{
+    display:none;
+}
+/*############Mobile#############*/
+@media screen and (max-width:680px){
+    ul.topnav li:not(:nth-child(1)){
+        display:none;
+    }
+    
+    ul.topnav li.hamburger{
+        display:block;
+        float:right;
+    
+    }
+    ul.topnav.responsive li.hamburger{
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    ul.topnav.responsive{
+        position:relative;
+    }
+    ul.topnav.responsive li{
+        display:inline;
+        float:none;
+    }
+    ul.topnav.responsive li a{
+        display:block;
+        text-align:left;
+    }
+}
