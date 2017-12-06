@@ -138,16 +138,16 @@ console.log(FeegoCar.getcar());
 //store car til end of the day
 
 var storecarhere = FeegoCar.getcar;
-//day is over so niw im ready to collect car;
+//day is over so now im ready to collect car;
 
-console.log(storecarhere);
+console.log(storecarhere());
 
 // sorting out my correct car
 
 var myrealcar = storecarhere.bind(FeegoCar);
 console.log(myrealcar());
 
-
+//COMEBACK TO THIS
 
 
 
