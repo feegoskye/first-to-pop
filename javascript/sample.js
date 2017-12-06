@@ -1,4 +1,4 @@
-var textfield1 = document.getElementById('tetxtfield1');
+var textfield1 = document.getElementById('textfield1');
 var textfield2 = document.getElementById('textfield2');
 var grabber = document.getElementById('grabber');
 var result = document.getElementById('result');
@@ -25,3 +25,35 @@ grabber.addEventListener('submit',function(event){
         
     
 });
+
+
+//var bankAccount = 500;
+//
+//function Makebuy(ItemCost){
+//    if(bankAccount >= ItemCost){
+//        bankaccount -= ItemCost;
+//        console.log("You have just completed a purchase");
+//    }else{
+//        console.log("you have insufficient funds");
+//    }
+//}
+//
+//Makebuy(230.0);
+//console.log(bankAccount);
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
