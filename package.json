@@ -20,6 +20,7 @@
     "mine"
   ],
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "readline-sync": "^1.4.7"
   }
 }

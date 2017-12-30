@@ -202,4 +202,6 @@ lucka("duh1");
 
 
 
-
+var re = require('readline-sync');
+var name = re.question("you are awesome!");
+console.log(name);
