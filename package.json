@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "yellow",
+  "main": "markcalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feegoskye/first-to-pop.git"
+  },
+  "author": "feego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feegoskye/first-to-pop/issues"
+  },
+  "homepage": "https://github.com/feegoskye/first-to-pop#readme",
+  "keywords": [
+    "mine"
+  ],
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

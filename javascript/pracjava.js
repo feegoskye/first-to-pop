@@ -18,3 +18,23 @@ formula.addEventListener('submit',function(stopit ){
     }
     
 })
+
+var riverdale =function(){
+    return "riverdale2";
+}
+console.log(riverdale());
+
+function person(name,age,sex){
+    this.name = name;
+    this.age = age;
+    this.sex = sex;
+    this.calculateretirement = retire;
+    
+}
+function retire(){
+    return  65 - this.age ;
+    
+}
+var terrycrews = new person("terry crews",42,"male");
+console.log(terrycrews.name)
+console.log(terrycrews.calculateretirement());

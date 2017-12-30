@@ -168,9 +168,32 @@ function player(attk,def){
     this.def = def;
     
 }
+this.car ="immi benx";
+// immitation benz
+
+var mycar={car:"lambo",getcar 
+           :function(){
+           return this.car;
+          }
+};
+console.log(mycar.getcar());
+//store car
+
+var storecarhere = mycar.getcar;
+console.log(storecarhere());
+var storereal = mycar.getcar.bind(mycar);
+console.log(storereal());
 
 
 
+ function lucka(l){
+    console.log(l) 
+   
+     
+   
+}
+
+lucka("duh1");
 
 
 
