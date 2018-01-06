@@ -1,0 +1,15 @@
+{
+  "name": "roll-out",
+  "version": "1.0.0",
+  "description": "rolling out the new year",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "feego",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "readline-sync": "^1.4.7"
+  }
+}
